@@ -2,6 +2,7 @@
 
 class Home extends MY_Controller {
 
+<<<<<<< HEAD
 
     
     public function index()
@@ -16,4 +17,15 @@ class Home extends MY_Controller {
     }
     
 
+=======
+    // ------------------------------------------------------------------------
+    
+    public function index()
+    {
+        $this->load->view('home', $this->data);
+    }
+    
+    // ------------------------------------------------------------------------
+    
+>>>>>>> 62eb11614248ebc88b55f36b0a00012ce554d9c8
 }

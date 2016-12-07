@@ -2,7 +2,11 @@
 <html>
 <head>
     <title>My Site</title>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>public/css/style.css">
+=======
+    
+>>>>>>> 62eb11614248ebc88b55f36b0a00012ce554d9c8
 </head>
 <body>
     
