@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteBase /ci-tutorial/
- 
+RewriteBase /eventtask/
+
 ### Canonicalize codeigniter URLs
  
 # If your default controller is something other than
@@ -22,3 +22,6 @@ RewriteRule ^(.*)$ /index.php/$1 [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+

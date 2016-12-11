@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mysql:host=localhost;dbname=rahul',
+	'hostname' => 'mysql:host=localhost;dbname=events',
 	'username' => 'root',
 	'password' => 'root',
-	'database' => 'rahul',
+	'database' => 'events',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
@@ -92,6 +92,6 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE,
-	'port'	=> '3309'
+	'save_queries' => TRUE
+
 );
